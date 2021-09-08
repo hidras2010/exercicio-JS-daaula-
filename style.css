@@ -1,0 +1,116 @@
+
+*{
+    margin: 3px;
+    padding: 0;
+    font-family: 'timeloud', sans-serif;
+  }
+    
+  body {
+    background-image: url(https://i.imgur.com/m4ht50b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed
+      
+    
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+  }
+  
+  .card {
+    background-color: #ffffff50;
+    padding: 15px;
+    border-radius: 10%;
+    box-shadow: 3px 3px 1px 0px #00000090
+  }
+  
+  h2{
+    text-align: center;
+
+    color: #272262;
+    width: 200px;
+  }
+  
+  .label-float input{
+    width: 100%;
+    padding: 5px 3px;
+    display: inline-blue;
+    border: 02;
+    border-bottom: 2px solid #272262;
+    background-color: transparent;
+    outline: none;
+    min-width: 150px;
+    font-size: 15px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+  }
+  
+  .label-flaot{
+    position: relativo;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 0%;
+  }
+  
+  .label-float input:focus{
+    
+  }
+  .label-float label{
+    color: #272762;
+    pointer-event: none;
+    position: absolute;
+  }
+  
+  button{
+    background-color: transparent;
+    border-color: #272280;
+    color: #272260;
+    paddind: 10px;
+    font-weight: bold;
+    font-sizer: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    outline: none;
+    transition: all .3s ease-out;
+  }
+  button:hover{
+    background-color: #272262;
+    color: #fff;
+  }
+  .justify-center{
+    display: flex;
+    justify-content: center;
+    width: 190px
+  }
+  
+  hr{
+    margin-top: 04%;
+    margin-bottom: 03%;
+    width: 60%;
+  }
+  
+  p{
+    color: #272262;
+    font-size: 14pt;
+    text-align: center
+  }
+  
+  a{
+    color: #7a3077;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s ease-out;
+    }
+  
+  .a:hover{
+    color: #272262;
+  }
+
+  #lista{
+      background-color: rgb(241, 247, 250);
+      width: fit-content;
+      border: 1px outset;
+  }
